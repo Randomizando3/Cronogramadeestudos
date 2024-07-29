@@ -50,13 +50,14 @@ Bem-vindo ao Gerenciador de Cronograma de Estudos! Este projeto foi desenvolvido
 
 ## Como Usar
 
-Clone este repositório para sua máquina local.
+1. Clone este repositório para sua máquina local.
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
-Navegue até o diretório do projeto.
-bash
-Copiar código
+2. Navegue até o diretório do projeto.
+```bash
 cd seu-repositorio
+
 Abra o arquivo index.html no seu navegador para iniciar a aplicação.
+
 Siga as instruções na tela para configurar seu cronograma de estudos.
