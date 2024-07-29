@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Verificação de Acesso</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const info = localStorage.getItem('Informacoes');
+            const materia = localStorage.getItem('materia');
+            
+            if (info && JSON.parse(info).Nome && materia) {
+                window.location.href = 'blocodeestudos.html';
+            } else {
+                window.location.href = 'cadastro.html';
+            }
+        });
+    </script>
+</head>
+<body>
+    <p>Carregando...</p>
+</body>
+</html>

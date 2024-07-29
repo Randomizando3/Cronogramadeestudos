@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Usando a imagem como plano de fundo */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 0; /* Removido o preenchimento para se ajustar ao tamanho da imagem */
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 65%;
+    border-radius: 5px; /* Adiciona bordas arredondadas à imagem */
+}
+
+button:hover img {
+    opacity: 0.8; /* Efeito de transparência ao passar o mouse */
+}

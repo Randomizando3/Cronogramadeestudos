@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Utilizando o mesmo plano de fundo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Mudando a cor do texto para branco */
+}
+
+.welcome-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-content {
+    max-width: 800px;
+}
+
+#user-name {
+    font-size: 40px; /* Mesmo tamanho da fonte do "Olá" */
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0 30px;
+}
+
+button {
+    position: absolute;
+    bottom: 15px; /* 15px do canto inferior */
+    right: 15px; /* 15px da margem direita */
+    width:250px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 100%; /* A imagem se ajusta ao botão */
+    height: auto;
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+button:hover img {
+    opacity: 0.8; /* Efeito de transparência ao passar o mouse */
+}

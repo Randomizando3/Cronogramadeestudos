@@ -1,0 +1,91 @@
+/* selecaodedisciplinas.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Usando a imagem como plano de fundo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.disciplinas-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.disciplinas-list {
+    background-color: white; /* Fundo branco para a lista de disciplinas */
+    padding: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+    width: 50%; /* Definindo uma largura para a caixa de disciplinas */
+    max-width: 600px; /* Máximo de largura para evitar que fique muito grande em telas largas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve para melhorar a distinção */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: left; /* Alinhamento do texto à esquerda para melhor legibilidade */
+}
+
+input, select {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: rgb(0, 61, 136);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continuar-btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.continuar-btn img {
+    width: 250px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.voltar-btn {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.voltar-btn img {
+    width: 250px; /* Ajuste conforme necessário */
+    height: auto;
+}

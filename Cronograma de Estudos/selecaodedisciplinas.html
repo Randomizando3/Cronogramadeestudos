@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Disciplinas</title>
+    <link rel="stylesheet" href="selecaodedisciplinas.css">
+</head>
+<body>
+    <div class="disciplinas-container">
+        <header>
+            <h1 id="header-title"></h1> <!-- Título será preenchido com JavaScript -->
+        </header>
+        <section class="disciplinas-list">
+            <ul id="lista-disciplinas"></ul>
+        </section>
+        <footer>
+            <input type="text" id="disciplina" placeholder="Nome da disciplina">
+            <select id="prioridade">
+                <option value="4">Prioridade máxima</option>
+                <option value="3">Importante</option>
+                <option value="2">Moderada</option>
+                <option value="1">Opcional</option>
+            </select>
+            <button onclick="adicionarDisciplina()">+</button>
+        </footer>
+        <button class="continuar-btn" onclick="continuar()">
+            <img src="buttoncontinuar2.png" alt="Continuar">
+        </button>
+        <button class="voltar-btn" onclick="voltar()">
+            <img src="buttonvoltar.png" alt="Voltar">
+        </button>
+    </div>
+    <script src="selecaodedisciplinas.js"></script>
+</body>
+</html>

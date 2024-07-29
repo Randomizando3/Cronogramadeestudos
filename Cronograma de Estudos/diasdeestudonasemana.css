@@ -1,0 +1,79 @@
+/* diasdeestudonasemana.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Garantindo que a largura cubra toda a página */
+    height: 100%; /* Garantindo que a altura cubra toda a página */
+    display: flex; /* Usando Flexbox para facilitar o alinhamento */
+    align-items: center; /* Centralizando verticalmente */
+    justify-content: center; /* Centralizando horizontalmente */
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.dias-estudo-container {
+    width: 90%; /* Definindo a largura do container para manter uma boa proporção */
+    max-width: 800px; /* Máximo de largura permitida */
+    padding: 20px;
+    text-align: left; /* Alinhamento do texto à esquerda */
+    background-color: rgba(255, 255, 255, 0); /* Fundo semi-transparente para melhor legibilidade */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra suave para profundidade */
+    display: flex; /* Usando Flexbox dentro do container */
+    flex-direction: column; /* Itens organizados em coluna */
+    justify-content: center; /* Centralizando conteúdo na direção vertical */
+}
+
+.dias-selecao {
+    display: flex;
+    flex-wrap: wrap; /* Permitindo a quebra de linha */
+    justify-content: flex-start; /* Alinhando os itens à esquerda */
+}
+
+.dias-selecao label {
+    flex: 1 1 50%; /* Distribuindo em duas colunas */
+    margin: 5px 0;
+    font-size: 18px; /* Fonte maior para legibilidade */
+}
+
+input[type="checkbox"] {
+    accent-color: #0056b3; /* Cor do tema para as caixas de seleção */
+    margin-right: 10px;
+}
+
+.continuar-btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    padding: 0; /* Removendo o padding para ajustar a imagem corretamente */
+    background: none; /* Removendo qualquer fundo para que apenas a imagem seja visível */
+    border: none; /* Removendo bordas do botão */
+    cursor: pointer;
+    width: 250px; /* Largura específica para a imagem */
+    
+}
+
+.continuar-btn img {
+    width: 100%; /* Fazendo com que a imagem preencha todo o botão */
+    height: auto; /* Mantendo a proporção da imagem */
+}
+
+.voltar-btn {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    padding: 0; /* Removendo o padding para ajustar a imagem corretamente */
+    background: none; /* Removendo qualquer fundo para que apenas a imagem seja visível */
+    border: none; /* Removendo bordas do botão */
+    cursor: pointer;
+    width: 250px; /* Largura específica para a imagem */
+}
+
+.voltar-btn img {
+    width: 100%; /* Fazendo com que a imagem preencha todo o botão */
+    height: auto; /* Mantendo a proporção da imagem */
+}

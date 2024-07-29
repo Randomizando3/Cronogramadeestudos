@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo por Dia da Semana</title>
+    <link rel="stylesheet" href="tempopordiadasemana.css">
+</head>
+<body>
+    <div class="tempo-dia-container">
+        <h1 id="user-greeting">, quanto tempo você irá estudar por dia?</h1>
+        <ul id="tempo-por-dia-lista"></ul>
+        <label><input type="checkbox" id="repetir-tempo" onchange="repetirTempo()"> Repetir o mesmo tempo todos os dias</label>
+        <div id="tempo-universal" style="display: none;">
+            <button onclick="alterarTempoUniversal(-15)">-</button>
+            <span id="tempo-todos">0:00</span>
+            <button onclick="alterarTempoUniversal(15)">+</button>
+        </div>
+        <button class="continuar-btn" onclick="salvarTempo()">
+            <img src="buttoncontinuar2.png" alt="Continuar">
+        </button>
+        <button class="voltar-btn" onclick="voltar()">
+            <img src="buttonvoltar.png" alt="Voltar">
+        </button>
+    </div>
+    <script src="tempopordiadasemana.js"></script>
+</body>
+</html>

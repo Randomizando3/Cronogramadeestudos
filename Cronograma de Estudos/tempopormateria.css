@@ -1,0 +1,112 @@
+/* tempopormateria.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixa o background durante a rolagem */
+    color: white;
+}
+
+.materias-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: #ffffff00; /* Transparent background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+li {
+    background-color: #05317900; /* Semi-transparent background */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: #f8f8f8 solid 1px;
+    display: flex;
+    justify-content: space-between; /* Ensures children are spaced out */
+    align-items: center;
+    position: relative; /* Needed for the pseudo-element */
+}
+
+li::after {
+    content: "";
+    position: absolute;
+    left: 120px; /* Adjust this based on your actual layout */
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc; /* Light grey vertical line */
+}
+
+.dia {
+    flex: 0 0 120px; /* Adjust width as needed */
+    text-align: left; /* Aligns the text to the left */
+}
+
+.materias {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap; /* Allows multiple lines */
+    align-items: flex-start;
+    margin-left: 20px; /* Adds space between the day and the subjects */
+}
+
+.tempo-dia {
+    flex: 1 0 33%; /* Each subject takes roughly 1/3 of the line */
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: left; /* Aligns text to the left within each subject block */
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #0056b3;
+    cursor: pointer;
+}
+
+.continuar-btn {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.continuar-btn img {
+    width: auto; /* Adapta-se ao tamanho do botão */
+    height: 40px; /* Altura do botão */
+}
+
+.voltar-btn {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.voltar-btn img {
+    width: auto; /* Adapta-se ao tamanho do botão */
+    height: 40px; /* Altura do botão */
+}

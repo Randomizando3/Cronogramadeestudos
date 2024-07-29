@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Estudos</title>
+    <link rel="stylesheet" href="blocodeestudos.css">
+</head>
+<body>
+    <div class="header">
+        <button onclick="confirmarAlteracaoCronograma()" class="menu-button">☰ Resetar cronograma</button>
+        <div class="user-info">Olá, <span id="user-name"></span>! Data: <span id="current-date"></span></div>
+    </div>    
+    <div class="estudo-container">
+        <audio id="beep-audio" src="beep.mp3"></audio>
+        <div id="blocos-estudo"></div>
+    </div>
+    <script src="blocodeestudos.js"></script>
+</body>
+</html>

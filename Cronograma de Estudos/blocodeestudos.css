@@ -1,0 +1,132 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: auto; /* Se desejar que a altura cresça com o conteúdo, mantenha 'auto', senão pode usar 100% */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alterado de center para flex-start */
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.estudo-container
+{
+    width: 80%;
+    max-width: 1200px;
+    overflow-y: auto;
+    margin-top: 6em; /* Ajuste conforme necessário para começar os blocos mais abaixo */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0); /* Fundo semi-transparente */
+    position: relative; /
+}
+
+.dia-estudo {
+margin-top: 40px;
+border-bottom: 1px solid #ccc;
+}
+
+.materia-bloco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.materia-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.materia-nome {
+    flex: 2; /* Ajusta a largura da coluna do nome da matéria */
+    margin-right: 10px;
+}
+
+.tempo-materia {
+    flex: 1; /* Ajusta a largura da coluna do tempo */
+}
+
+.anotacoes {
+    flex: 3; /* Ajusta a largura da coluna das anotações */
+    margin: 0 10px; /* Adiciona margem para separar visualmente as colunas */
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Ajusta a largura da coluna do checkbox */
+}
+
+.botao-iniciar {
+    flex: 1; /* Ajusta a largura da coluna do botão iniciar */
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao-iniciar:hover {
+    background-color: #003b7a;
+}
+
+.concluido-checkbox {
+margin-left: 20px;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para toda a barra do cabeçalho */
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
+}
+
+.menu-button {
+    font-size: 24px;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.user-info {
+    font-size: 18px; /* Aumentando a fonte para melhor legibilidade */
+    text-align: right;
+    padding-right: 20px; /* Espaço adicional à direita */
+}
+

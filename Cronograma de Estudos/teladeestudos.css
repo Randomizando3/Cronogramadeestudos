@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden; /* Hide the slides that overflow the width */
+    position: relative;
+    background-color: #007BFF;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.slide {
+    width: 100%; /* Each slide takes full width of the slider */
+    display: none; /* Hide slides initially */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.slide.active {
+    background-color: #007BFF; /* Cor de destaque para o slide ativo */
+    color: white;
+}
+
+/* Adicione isto ao seu arquivo selecaodedisciplinas.css */
+.delete-btn {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
