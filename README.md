@@ -57,7 +57,8 @@ Bem-vindo ao Gerenciador de Cronograma de Estudos! Este projeto foi desenvolvido
 2. Navegue até o diretório do projeto.
 ```bash
 cd seu-repositorio
+```
 
-Abra o arquivo index.html no seu navegador para iniciar a aplicação.
+3. Abra o arquivo index.html no seu navegador para iniciar a aplicação.
 
-Siga as instruções na tela para configurar seu cronograma de estudos.
+4. Siga as instruções na tela para configurar seu cronograma de estudos.
