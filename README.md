@@ -2,15 +2,7 @@
 
 Bem-vindo ao Gerenciador de Cronograma de Estudos! Este projeto foi desenvolvido com o objetivo de auxiliar os usuários a planejarem e acompanharem sua rotina de estudos de maneira personalizada e eficiente. A aplicação foi construída utilizando HTML, CSS e JavaScript, funcionando como um programa desktop através de uma visualização em webview.
 
-![Study Schedule](https://www.izzibrasil.com/tela1.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela2.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela3.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela4.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela5.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela6.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela7.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela8.PNG)
-![Study Schedule](https://www.izzibrasil.com/tela9.PNG)
+
 
 ## Funcionalidades
 
